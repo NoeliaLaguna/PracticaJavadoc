@@ -92,7 +92,7 @@ public class DamBank {
                         System.out.println("¿Que cantidad quieres ingresar?");
                         double dineroAIngresar = teclado.nextInt();
                         teclado.nextLine();
-                        System.out.println("Cual es el concepto del movimiento?");
+                        System.out.println("Cual es el concepto de este movimiento?");
                         String conceptoIngreso = teclado.nextLine();
                         personaConCuenta.eleccionCuentaIngreso(opcion,dineroAIngresar, conceptoIngreso);
                         personaConCuenta.mostrarSaldo(opcion);
