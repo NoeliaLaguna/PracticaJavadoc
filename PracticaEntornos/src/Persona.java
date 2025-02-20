@@ -68,6 +68,7 @@ public class Persona {
 
     /**
      * Metodo vacío que añade la cuenta del usuario concreto a un array de cuentas bancarias.
+     * @param cuenta objeto de la clase CuentaBancaria que se introduce para añadir la cuenta al array.
      */
     public void anadirCuentaALista(CuentaBancaria cuenta) {
         if (pos<listaCuentas.length && listaCuentas[pos]==null) {
