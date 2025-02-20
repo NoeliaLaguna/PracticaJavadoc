@@ -1,6 +1,9 @@
 import java.util.Scanner;
-
-/*Añadir un metodo en clase CuentaBancaria que me devuelva el total de dinero relacionado con nóminas. Para ello habrá que buscar la palabra Nomina (sin importar mayus/minus) en los movimientos. */
+/**
+ * Clase principal del programa que contiene la clase main.
+ * @author Noelia Laguna
+ * @version 1.0
+ */
 
 public class DamBank {
     public static void main(String[] args) {
