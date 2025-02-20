@@ -160,7 +160,11 @@ public class DamBank {
 
     }
 
-
+    /**
+     * Metodo boolean que realiza la comprobación del IBAN que se ha introducido por teclado. Debe tener dos letras al inicio y después, 22 números.
+     * @param iban Valor String que se introduce por teclado.
+     * @return ibanCorrecto Devuelve true si el IBAN es correcto o false si no lo es.
+     */
     private static boolean comprobarIBAN(String iban) {
         boolean ibanCorrecto = true;
         char primerCaracter = iban.charAt(0);
