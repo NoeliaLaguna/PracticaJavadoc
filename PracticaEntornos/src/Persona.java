@@ -16,7 +16,7 @@ public class Persona {
      * Constructor por parámetros de la cuenta bancaria.
      * @param nombre  Tipo String recibido por entrada de teclado con el nombre del usuario.
      * @param apellidos Tipo String recibido por entrada de teclado con el apellido del usuario.
-     * @param fechaNacimiento Tipo String recibido por entrada de teclado con el apellido del usuario
+     * @param fechaNacimiento Tipo String recibido por entrada de teclado con el apellido del usuario.
      */
     public Persona ( String nombre, String apellidos, String fechaNacimiento){
         this.nombre = nombre;
@@ -24,22 +24,34 @@ public class Persona {
         this.fechaNacimiento = fechaNacimiento;
     }
 
+    /**
+     * Metodo get para el nombre del titular de la cuenta.
+     * @return devuelve el nombre.
+     */
     public String getNombre() {
         return nombre;
     }
 
+    /**
+     * Metodo get para el apellido del titular de la cuenta.
+     * @return devuelve el apellido.
+     */
     public String getApellidos() {
         return apellidos;
     }
 
+    /**
+     * Metodo get para la edad del titular de la cuenta.
+     * @return devuelve la edad del titular de la cuenta.
+     */
     public int getEdad() {
         return edad;
     }
 
-    public void setEdad(int edad) {
-        this.edad = edad;
-    }
-
+    /**
+     * Metodo get para la fecha de nacimiento del titular de la cuenta.
+     * @return devuelve la fecha de nacimiento.
+     */
     public String getFechaNacimiento() {
         return fechaNacimiento;
     }

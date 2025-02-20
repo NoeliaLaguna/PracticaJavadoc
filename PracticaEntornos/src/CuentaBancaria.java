@@ -23,9 +23,6 @@ public class CuentaBancaria {
         this.iban = iban;
     }
 
-    public String getIban() {
-        return iban;
-    }
     /**
      * Metodo para mostrar los datos de los atributos del objeto creado en la clase de CuentaBancaria.
      */
@@ -35,26 +32,58 @@ public class CuentaBancaria {
                 "\nSaldo: " + saldo);
     }
 
+    /**
+     * Metodo get para el IBAN del titular de la cuenta.
+     * @return devuelve el IBAN de la cuenta
+     */
+    public String getIban() {
+        return iban;
+    }
+
+    /**
+     * Metodo get para el nombre del titular de la cuenta.
+     * @return devuelve el nombre del titular de la cuenta.
+     */
     public String getNombreTitular() {
         return nombreTitular;
     }
 
+    /**
+     * Metodo set para el nombre del titular de la cuenta.
+     * @param nombreTitular nombre del titular de la cuenta.
+     */
     public void setNombreTitular(String nombreTitular) {
         this.nombreTitular = nombreTitular;
     }
 
+    /**
+     * Metodo get para el saldo de la cuenta.
+     * @return devuelve el saldo de la cuenta
+     */
     public double getSaldo() {
         return saldo;
     }
 
+    /**
+     * Metodo set para el saldo de la cuenta.
+     * @param saldo cantidad double del saldo de la cuenta.
+     */
     public void setSaldo(double saldo) {
         this.saldo = saldo;
     }
 
+    /**
+     * Metodo get para el saldo mínimo de la cuenta.
+     * @return devuelve la constante SALDO_MINIMO
+     */
     public int getSALDO_MINIMO() {
         return SALDO_MINIMO;
     }
 
+    /**
+     * Metodo get para el saldo maximo en el que hay que avisar a hacienda.
+     * @return devuelve la constante HACIENDA.
+     */
     public int getHACIENDA() {
         return HACIENDA;
     }
